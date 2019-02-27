@@ -1,0 +1,18 @@
+{
+    "require": {
+        "twig/twig": "^2.0",
+        "phpunit/phpunit": "^7.5",
+        "guzzlehttp/guzzle": "^6.3",
+        "squizlabs/php_codesniffer": "^3.4"
+    }
+,
+
+"autoload": {
+    "psr-4": {
+      "App\\":"contactManagement"
+      
+    },
+"classmap":[ "contactManagement/app/models" , "contactManagement/app/controllers","contactManagement/app/core"]
+  }
+
+}
